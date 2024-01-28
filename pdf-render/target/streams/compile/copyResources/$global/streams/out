@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\DELL\Desktop\Play-Microservice\pdf-render\conf\application.conf,C:\Users\DELL\Desktop\Play-Microservice\pdf-render\target\scala-2.12\classes\application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\DELL\Desktop\Play-Microservice\pdf-render\conf\evolutions,C:\Users\DELL\Desktop\Play-Microservice\pdf-render\target\scala-2.12\classes\evolutions)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\DELL\Desktop\Play-Microservice\pdf-render\conf\evolutions\default,C:\Users\DELL\Desktop\Play-Microservice\pdf-render\target\scala-2.12\classes\evolutions\default)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\DELL\Desktop\Play-Microservice\pdf-render\conf\evolutions\default\1.sql,C:\Users\DELL\Desktop\Play-Microservice\pdf-render\target\scala-2.12\classes\evolutions\default\1.sql)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\DELL\Desktop\Play-Microservice\pdf-render\conf\logback.xml,C:\Users\DELL\Desktop\Play-Microservice\pdf-render\target\scala-2.12\classes\logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(C:\Users\DELL\Desktop\Play-Microservice\pdf-render\conf\routes,C:\Users\DELL\Desktop\Play-Microservice\pdf-render\target\scala-2.12\classes\routes)[0m

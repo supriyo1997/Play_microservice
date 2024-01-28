@@ -1,0 +1,1328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.pdf"
+		module="pdf-render$sources"
+		revision="1.0-SNAPSHOT"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, web-assets, web-assets-test, web-plugin, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, docs"
+		date="20240128202214"/>
+	<dependencies>
+		<module organisation="com.typesafe.play" name="play-java-forms_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042125" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="93">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="6046" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-java-forms_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.8.1/play-java-forms_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-java-forms_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31342" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-java-forms_2.12\srcs\play-java-forms_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.12/2.8.1/play-java-forms_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="8.0.28" status="release" pubdate="20211216055541" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="88">
+				<license name="The GNU General Public License, v2 with FOSS exception"/>
+				<metadata-artifact status="no" details="" size="2851" time="0" location="C:\Users\DELL\.ivy2\cache\mysql\mysql-connector-java\ivy-8.0.28.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="8.0.28" rev-constraint-default="8.0.28" rev-constraint-dynamic="8.0.28" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1592858" time="0" location="C:\Users\DELL\.ivy2\cache\mysql\mysql-connector-java\srcs\mysql-connector-java-8.0.28-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/8.0.28/mysql-connector-java-8.0.28-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-enhancer">
+			<revision name="1.2.2" status="release" pubdate="20171007050322" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-enhancer" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="81">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2704" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-enhancer\ivy-1.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.2.2/play-enhancer-1.2.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.2.2" rev-constraint-default="1.2.2" rev-constraint-dynamic="1.2.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-enhancer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3349" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-enhancer\srcs\play-enhancer-1.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-enhancer/1.2.2/play-enhancer-1.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.8" status="release" pubdate="20181204154524" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2863" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="615375" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang\scala-reflect\srcs\scala-reflect-2.12.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ebean_2.12">
+			<revision name="6.0.0" status="release" pubdate="20200213172405" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ebean" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="73">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4049" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ebean_2.12\ivy-6.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.12/6.0.0/play-ebean_2.12-6.0.0.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="6.0.0" rev-constraint-default="6.0.0" rev-constraint-dynamic="6.0.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-ebean_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="8661" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ebean_2.12\srcs\play-ebean_2.12-6.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ebean_2.12/6.0.0/play-ebean_2.12-6.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.ebean" name="ebean">
+			<revision name="11.45.1" status="release" pubdate="20190912164603" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ebean-orm.github.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9203" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean\ivy-11.45.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/ebean/ebean/11.45.1/ebean-11.45.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="11.45.1" rev-constraint-default="11.45.1" rev-constraint-dynamic="11.45.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ebean" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1601210" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean\srcs\ebean-11.45.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/ebean/ebean/11.45.1/ebean-11.45.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.yaml" name="snakeyaml">
+			<revision name="1.21" status="release" pubdate="20180413121619" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.snakeyaml.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="108">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5468" time="0" location="C:\Users\DELL\.ivy2\cache\org.yaml\snakeyaml\ivy-1.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.21" rev-constraint-default="1.21" rev-constraint-dynamic="1.21" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="snakeyaml" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="189081" time="0" location="C:\Users\DELL\.ivy2\cache\org.yaml\snakeyaml\srcs\snakeyaml-1.21-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/yaml/snakeyaml/1.21/snakeyaml-1.21-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.11.4" status="release" pubdate="20200215025202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="5949" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-3.11.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="3.11.4" rev-constraint-default="3.11.4" rev-constraint-dynamic="3.11.4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="864181" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.protobuf\protobuf-java\srcs\protobuf-java-3.11.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr4-runtime">
+			<revision name="4.7.2" status="release" pubdate="20181219000700" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="The BSD License" url="http://www.antlr.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3698" time="0" location="C:\Users\DELL\.ivy2\cache\org.antlr\antlr4-runtime\ivy-4.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="4.7.2" rev-constraint-default="4.7.2" rev-constraint-dynamic="4.7.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="antlr4-runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="320236" time="0" location="C:\Users\DELL\.ivy2\cache\org.antlr\antlr4-runtime\srcs\antlr4-runtime-4.7.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hibernate.validator" name="hibernate-validator">
+			<revision name="6.1.0.Final" status="release" pubdate="20191025141249" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="36581" time="0" location="C:\Users\DELL\.ivy2\cache\org.hibernate.validator\hibernate-validator\ivy-6.1.0.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.1.0.Final/hibernate-validator-6.1.0.Final.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="6.1.0.Final" rev-constraint-default="6.1.0.Final" rev-constraint-dynamic="6.1.0.Final" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="hibernate-validator" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="911974" time="0" location="C:\Users\DELL\.ivy2\cache\org.hibernate.validator\hibernate-validator\srcs\hibernate-validator-6.1.0.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.1.0.Final/hibernate-validator-6.1.0.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml" name="classmate">
+			<revision name="1.3.4" status="release" pubdate="20170910031804" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/java-classmate" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5781" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml\classmate\ivy-1.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.3.4" rev-constraint-default="1.3.4" rev-constraint-dynamic="1.3.4" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="classmate" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47914" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml\classmate\srcs\classmate-1.3.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.validation" name="jakarta.validation-api">
+			<revision name="2.0.2" status="release" pubdate="20190811031613" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://beanvalidation.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3796" time="0" location="C:\Users\DELL\.ivy2\cache\jakarta.validation\jakarta.validation-api\ivy-2.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.0.2" rev-constraint-default="2.0.2" rev-constraint-dynamic="2.0.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jakarta.validation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="97203" time="0" location="C:\Users\DELL\.ivy2\cache\jakarta.validation\jakarta.validation-api\srcs\jakarta.validation-api-2.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jboss.logging" name="jboss-logging">
+			<revision name="3.3.2.Final" status="release" pubdate="20180215025338" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.jboss.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="57">
+				<license name="Apache License, version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9590" time="0" location="C:\Users\DELL\.ivy2\cache\org.jboss.logging\jboss-logging\ivy-3.3.2.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="3.3.2.Final" rev-constraint-default="3.3.2.Final" rev-constraint-dynamic="3.3.2.Final" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jboss-logging" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55328" time="0" location="C:\Users\DELL\.ivy2\cache\org.jboss.logging\jboss-logging\srcs\jboss-logging-3.3.2.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.ebean" name="ebean-agent">
+			<revision name="11.45.1" status="release" pubdate="20190911052953" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ebean-orm.github.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5503" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-agent\ivy-11.45.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/ebean/ebean-agent/11.45.1/ebean-agent-11.45.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="11.45.1" rev-constraint-default="11.45.1" rev-constraint-dynamic="11.45.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ebean-agent" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="274495" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-agent\srcs\ebean-agent-11.45.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/ebean/ebean-agent/11.45.1/ebean-agent-11.45.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.itextpdf" name="itextpdf">
+			<revision name="5.5.13" status="release" pubdate="20180126205543" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://itextpdf.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<license name="GNU Affero General Public License v3" url="http://www.fsf.org/licensing/licenses/agpl-3.0.html"/>
+				<metadata-artifact status="no" details="" size="4009" time="0" location="C:\Users\DELL\.ivy2\cache\com.itextpdf\itextpdf\ivy-5.5.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="5.5.13" rev-constraint-default="5.5.13" rev-constraint-dynamic="5.5.13" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="itextpdf" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2334075" time="0" location="C:\Users\DELL\.ivy2\cache\com.itextpdf\itextpdf\srcs\itextpdf-5.5.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/itextpdf/itextpdf/5.5.13/itextpdf-5.5.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jaxb" name="jaxb-runtime">
+			<revision name="2.3.2" status="release" pubdate="20190102210223" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="42">
+				<license name="Eclipse Distribution License - v 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="10882" time="0" location="C:\Users\DELL\.ivy2\cache\org.glassfish.jaxb\jaxb-runtime\ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jaxb-runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="757829" time="0" location="C:\Users\DELL\.ivy2\cache\org.glassfish.jaxb\jaxb-runtime\srcs\jaxb-runtime-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.istack" name="istack-commons-runtime">
+			<revision name="3.0.8" status="release" pubdate="20181227201938" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Eclipse Distribution License - v 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="8138" time="0" location="C:\Users\DELL\.ivy2\cache\com.sun.istack\istack-commons-runtime\ivy-3.0.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="3.0.8" rev-constraint-default="3.0.8" rev-constraint-dynamic="3.0.8" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="istack-commons-runtime" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25886" time="0" location="C:\Users\DELL\.ivy2\cache\com.sun.istack\istack-commons-runtime\srcs\istack-commons-runtime-3.0.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.fastinfoset" name="FastInfoset">
+			<revision name="1.2.16" status="release" pubdate="20181227200400" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="Apache License, Version 2.0" url="http://www.opensource.org/licenses/apache2.0.php"/>
+				<license name="Eclipse Distribution License - v 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="4619" time="0" location="C:\Users\DELL\.ivy2\cache\com.sun.xml.fastinfoset\FastInfoset\ivy-1.2.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="FastInfoset" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="267403" time="0" location="C:\Users\DELL\.ivy2\cache\com.sun.xml.fastinfoset\FastInfoset\srcs\FastInfoset-1.2.16-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-context">
+			<revision name="5.2.2.RELEASE" status="release" pubdate="20191203154941" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3227" time="0" location="C:\Users\DELL\.ivy2\cache\org.springframework\spring-context\ivy-5.2.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="5.2.2.RELEASE" rev-constraint-default="5.2.2.RELEASE" rev-constraint-dynamic="5.2.2.RELEASE" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spring-context" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1062371" time="0" location="C:\Users\DELL\.ivy2\cache\org.springframework\spring-context\srcs\spring-context-5.2.2.RELEASE-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-beans">
+			<revision name="5.2.2.RELEASE" status="release" pubdate="20191203155009" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2741" time="0" location="C:\Users\DELL\.ivy2\cache\org.springframework\spring-beans\ivy-5.2.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="5.2.2.RELEASE" rev-constraint-default="5.2.2.RELEASE" rev-constraint-dynamic="5.2.2.RELEASE" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spring-beans" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="645588" time="0" location="C:\Users\DELL\.ivy2\cache\org.springframework\spring-beans\srcs\spring-beans-5.2.2.RELEASE-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.springframework" name="spring-core">
+			<revision name="5.2.2.RELEASE" status="release" pubdate="20191203155012" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/spring-projects/spring-framework" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2737" time="0" location="C:\Users\DELL\.ivy2\cache\org.springframework\spring-core\ivy-5.2.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="5.2.2.RELEASE" rev-constraint-default="5.2.2.RELEASE" rev-constraint-dynamic="5.2.2.RELEASE" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="spring-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="963830" time="0" location="C:\Users\DELL\.ivy2\cache\org.springframework\spring-core\srcs\spring-core-5.2.2.RELEASE-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.jvnet.staxex" name="stax-ex">
+			<revision name="1.8.1" status="release" pubdate="20181227204428" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="Eclipse Distribution License - v 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="4258" time="0" location="C:\Users\DELL\.ivy2\cache\org.jvnet.staxex\stax-ex\ivy-1.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="stax-ex" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="36627" time="0" location="C:\Users\DELL\.ivy2\cache\org.jvnet.staxex\stax-ex\srcs\stax-ex-1.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-logback_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042127" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="30">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3337" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-logback_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.8.1/play-logback_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-logback_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5126" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-logback_2.12\srcs\play-logback_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-logback_2.12/2.8.1/play-logback_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.glassfish.jaxb" name="txw2">
+			<revision name="2.3.2" status="release" pubdate="20190102210211" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Eclipse Distribution License - v 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="9720" time="0" location="C:\Users\DELL\.ivy2\cache\org.glassfish.jaxb\txw2\ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="txw2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70320" time="0" location="C:\Users\DELL\.ivy2\cache\org.glassfish.jaxb\txw2\srcs\txw2-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.avaje" name="avaje-classpath-scanner">
+			<revision name="3.1.1" status="release" pubdate="20180126034602" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5419" time="0" location="C:\Users\DELL\.ivy2\cache\org.avaje\avaje-classpath-scanner\ivy-3.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/avaje/avaje-classpath-scanner/3.1.1/avaje-classpath-scanner-3.1.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="3.1.1" rev-constraint-default="3.1.1" rev-constraint-dynamic="3.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="avaje-classpath-scanner" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="31939" time="0" location="C:\Users\DELL\.ivy2\cache\org.avaje\avaje-classpath-scanner\srcs\avaje-classpath-scanner-3.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/avaje/avaje-classpath-scanner/3.1.1/avaje-classpath-scanner-3.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.avaje" name="avaje-classpath-scanner-api">
+			<revision name="2.2" status="release" pubdate="20160725045101" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3351" time="0" location="C:\Users\DELL\.ivy2\cache\org.avaje\avaje-classpath-scanner-api\ivy-2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/avaje/avaje-classpath-scanner-api/2.2/avaje-classpath-scanner-api-2.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="avaje-classpath-scanner-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3724" time="0" location="C:\Users\DELL\.ivy2\cache\org.avaje\avaje-classpath-scanner-api\srcs\avaje-classpath-scanner-api-2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/avaje/avaje-classpath-scanner-api/2.2/avaje-classpath-scanner-api-2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.ebean" name="persistence-api">
+			<revision name="2.2.2" status="release" pubdate="20190313161611" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Eclipse Public License - v 1.0" url="https://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="4202" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\persistence-api\ivy-2.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/ebean/persistence-api/2.2.2/persistence-api-2.2.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.2.2" rev-constraint-default="2.2.2" rev-constraint-dynamic="2.2.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="persistence-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="133137" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\persistence-api\srcs\persistence-api-2.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/ebean/persistence-api/2.2.2/persistence-api-2.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.ebean" name="ebean-types">
+			<revision name="1.3" status="release" pubdate="20190224083920" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4360" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-types\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/ebean/ebean-types/1.3/ebean-types-1.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ebean-types" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2340" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-types\srcs\ebean-types-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/ebean/ebean-types/1.3/ebean-types-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.ebean" name="ebean-migration">
+			<revision name="11.20.1" status="release" pubdate="20190819142617" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5665" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-migration\ivy-11.20.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/ebean/ebean-migration/11.20.1/ebean-migration-11.20.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="11.20.1" rev-constraint-default="11.20.1" rev-constraint-dynamic="11.20.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ebean-migration" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="29589" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-migration\srcs\ebean-migration-11.20.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/ebean/ebean-migration/11.20.1/ebean-migration-11.20.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.ebean" name="ebean-annotation">
+			<revision name="5.1" status="release" pubdate="20190912101508" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4527" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-annotation\ivy-5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/ebean/ebean-annotation/5.1/ebean-annotation-5.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="5.1" rev-constraint-default="5.1" rev-constraint-dynamic="5.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ebean-annotation" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="44196" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-annotation\srcs\ebean-annotation-5.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/ebean/ebean-annotation/5.1/ebean-annotation-5.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.ebean" name="ebean-datasource">
+			<revision name="4.6.1" status="release" pubdate="20190807065758" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5199" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-datasource\ivy-4.6.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/ebean/ebean-datasource/4.6.1/ebean-datasource-4.6.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="4.6.1" rev-constraint-default="4.6.1" rev-constraint-dynamic="4.6.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ebean-datasource" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33373" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-datasource\srcs\ebean-datasource-4.6.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/ebean/ebean-datasource/4.6.1/ebean-datasource-4.6.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-jdbc-evolutions_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042125" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3604" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.12/2.8.1/play-jdbc-evolutions_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-jdbc-evolutions_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18857" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.12\srcs\play-jdbc-evolutions_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-evolutions_2.12/2.8.1/play-jdbc-evolutions_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-java-jdbc_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042032" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="100">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3479" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-jdbc_2.12/2.8.1/play-java-jdbc_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-java-jdbc_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7595" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-java-jdbc_2.12\srcs\play-java-jdbc_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-java-jdbc_2.12/2.8.1/play-java-jdbc_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-jdbc_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042123" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="15">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4339" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-jdbc_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.8.1/play-jdbc_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-jdbc_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11705" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-jdbc_2.12\srcs\play-jdbc_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc_2.12/2.8.1/play-jdbc_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.usc" name="jdbcdslog">
+			<revision name="1.0.6.2" status="release" pubdate="20111225121305" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/jdbcdslog-exp/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License,Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4095" time="0" location="C:\Users\DELL\.ivy2\cache\com.googlecode.usc\jdbcdslog\ivy-1.0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/usc/jdbcdslog/1.0.6.2/jdbcdslog-1.0.6.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.0.6.2" rev-constraint-default="1.0.6.2" rev-constraint-dynamic="1.0.6.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jdbcdslog" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19176" time="0" location="C:\Users\DELL\.ivy2\cache\com.googlecode.usc\jdbcdslog\srcs\jdbcdslog-1.0.6.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/usc/jdbcdslog/1.0.6.2/jdbcdslog-1.0.6.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.zaxxer" name="HikariCP">
+			<revision name="3.4.1" status="release" pubdate="20190918195048" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/brettwooldridge/HikariCP" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8320" time="0" location="C:\Users\DELL\.ivy2\cache\com.zaxxer\HikariCP\ivy-3.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="HikariCP" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="84248" time="0" location="C:\Users\DELL\.ivy2\cache\com.zaxxer\HikariCP\srcs\HikariCP-3.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.4.1/HikariCP-3.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-jdbc-api_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042056" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3061" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.8.1/play-jdbc-api_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-jdbc-api_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6890" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.12\srcs\play-jdbc-api_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-jdbc-api_2.12/2.8.1/play-jdbc-api_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.ebean" name="ebean-datasource-api">
+			<revision name="4.6" status="release" pubdate="20190807065055" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4514" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-datasource-api\ivy-4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/ebean/ebean-datasource-api/4.6/ebean-datasource-api-4.6.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="4.6" rev-constraint-default="4.6" rev-constraint-dynamic="4.6" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ebean-datasource-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12429" time="0" location="C:\Users\DELL\.ivy2\cache\io.ebean\ebean-datasource-api\srcs\ebean-datasource-api-4.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/ebean/ebean-datasource-api/4.6/ebean-datasource-api-4.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="filters-helpers_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042018" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3846" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\filters-helpers_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.8.1/filters-helpers_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="filters-helpers_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="61658" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\filters-helpers_2.12\srcs\filters-helpers_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.12/2.8.1/filters-helpers_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ahc-ws_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042128" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="107">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4571" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ahc-ws_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.8.1/play-ahc-ws_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-ahc-ws_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19060" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ahc-ws_2.12\srcs\play-ahc-ws_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.12/2.8.1/play-ahc-ws_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.cache" name="cache-api">
+			<revision name="1.1.1" status="release" pubdate="20190510113747" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jsr107/jsr107spec" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="96">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4030" time="0" location="C:\Users\DELL\.ivy2\cache\javax.cache\cache-api\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cache-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="105170" time="0" location="C:\Users\DELL\.ivy2\cache\javax.cache\cache-api\srcs\cache-api-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ahc-ws-standalone_2.12">
+			<revision name="2.1.2" status="release" pubdate="20191212053550" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4810" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ahc-ws-standalone_2.12\ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.1.2/play-ahc-ws-standalone_2.12-2.1.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-ahc-ws-standalone_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="57921" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ahc-ws-standalone_2.12\srcs\play-ahc-ws-standalone_2.12-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.12/2.1.2/play-ahc-ws-standalone_2.12-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="shaded-oauth">
+			<revision name="2.1.2" status="release" pubdate="20191212053548" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2526" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\shaded-oauth\ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="shaded-oauth" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="258" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\shaded-oauth\srcs\shaded-oauth-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="shaded-asynchttpclient">
+			<revision name="2.1.2" status="release" pubdate="20191212053547" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2556" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\shaded-asynchttpclient\ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="shaded-asynchttpclient" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="265" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\shaded-asynchttpclient\srcs\shaded-asynchttpclient-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="cachecontrol_2.12">
+			<revision name="2.0.0" status="release" pubdate="20191119130737" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/cachecontrol" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3266" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\cachecontrol_2.12\ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/2.0.0/cachecontrol_2.12-2.0.0.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cachecontrol_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30791" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\cachecontrol_2.12\srcs\cachecontrol_2.12-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.12/2.0.0/cachecontrol_2.12-2.0.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-akka-http-server_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042058" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3903" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-akka-http-server_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.8.1/play-akka-http-server_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-akka-http-server_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19576" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-akka-http-server_2.12\srcs\play-akka-http-server_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.12/2.8.1/play-akka-http-server_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-http-core_2.12">
+			<revision name="10.1.11" status="release" pubdate="20191202145504" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="87">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3843" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-http-core_2.12\ivy-10.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="10.1.11" rev-constraint-default="10.1.11" rev-constraint-dynamic="10.1.11" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.11/"/>
+				<artifacts>
+					<artifact name="akka-http-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="438781" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-http-core_2.12\srcs\akka-http-core_2.12-10.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.12/10.1.11/akka-http-core_2.12-10.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-server_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042056" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="90">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3801" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-server_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.8.1/play-server_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-server_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43059" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-server_2.12\srcs\play-server_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-server_2.12/2.8.1/play-server_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ws_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042108" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4282" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ws_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.8.1/play-ws_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-ws_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="11018" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ws_2.12\srcs\play-ws_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws_2.12/2.8.1/play-ws_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ws-standalone-json_2.12">
+			<revision name="2.1.2" status="release" pubdate="20191212053549" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4043" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ws-standalone-json_2.12\ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.1.2/play-ws-standalone-json_2.12-2.1.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-ws-standalone-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3767" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ws-standalone-json_2.12\srcs\play-ws-standalone-json_2.12-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.12/2.1.2/play-ws-standalone-json_2.12-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ws-standalone-xml_2.12">
+			<revision name="2.1.2" status="release" pubdate="20191212053549" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4045" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ws-standalone-xml_2.12\ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.1.2/play-ws-standalone-xml_2.12-2.1.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-ws-standalone-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4978" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ws-standalone-xml_2.12\srcs\play-ws-standalone-xml_2.12-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.12/2.1.2/play-ws-standalone-xml_2.12-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-java_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042106" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4705" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-java_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.12/2.8.1/play-java_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-java_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27530" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-java_2.12\srcs\play-java_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-java_2.12/2.8.1/play-java_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.jodah" name="typetools">
+			<revision name="0.5.0" status="release" pubdate="20170509201904" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/jhalterman/typetools/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="Apache License, Version 2.0" url="http://apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3402" time="0" location="C:\Users\DELL\.ivy2\cache\net.jodah\typetools\ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="typetools" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5619" time="0" location="C:\Users\DELL\.ivy2\cache\net.jodah\typetools\srcs\typetools-0.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-guice_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042114" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="85">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3732" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-guice_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.8.1/play-guice_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-guice_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="20849" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-guice_2.12\srcs\play-guice_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-guice_2.12/2.8.1/play-guice_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-assistedinject">
+			<revision name="4.2.2" status="release" pubdate="20181029225950" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="99">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5803" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\ivy-4.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="4.2.2" rev-constraint-default="4.2.2" rev-constraint-dynamic="4.2.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guice-assistedinject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="34485" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.inject.extensions\guice-assistedinject\srcs\guice-assistedinject-4.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject" name="guice">
+			<revision name="4.2.2" status="release" pubdate="20181029225932" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6249" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.inject\guice\ivy-4.2.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="4.2.2" rev-constraint-default="4.2.2" rev-constraint-dynamic="4.2.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guice" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="368268" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.inject\guice\srcs\guice-4.2.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20070227041340" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="89">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2447" time="0" location="C:\Users\DELL\.ivy2\cache\aopalliance\aopalliance\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="aopalliance" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21188" time="0" location="C:\Users\DELL\.ivy2\cache\aopalliance\aopalliance\srcs\aopalliance-1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042138" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="8374" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.8.1/play_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="518898" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play_2.12\srcs\play_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play_2.12/2.8.1/play_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.transaction" name="jakarta.transaction-api">
+			<revision name="1.3.3" status="release" pubdate="20190803034644" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://projects.eclipse.org/projects/ee4j.jta" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="EPL 2.0" url="http://www.eclipse.org/legal/epl-2.0"/>
+				<license name="GPL2 w/ CPE" url="https://www.gnu.org/software/classpath/license.html"/>
+				<metadata-artifact status="no" details="" size="4204" time="0" location="C:\Users\DELL\.ivy2\cache\jakarta.transaction\jakarta.transaction-api\ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jakarta.transaction-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="26451" time="0" location="C:\Users\DELL\.ivy2\cache\jakarta.transaction\jakarta.transaction-api\srcs\jakarta.transaction-api-1.3.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.xml.bind" name="jakarta.xml.bind-api">
+			<revision name="2.3.2" status="release" pubdate="20181227210107" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="Eclipse Distribution License - v 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="4710" time="0" location="C:\Users\DELL\.ivy2\cache\jakarta.xml.bind\jakarta.xml.bind-api\ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jakarta.xml.bind-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="194036" time="0" location="C:\Users\DELL\.ivy2\cache\jakarta.xml.bind\jakarta.xml.bind-api\srcs\jakarta.xml.bind-api-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.jsonwebtoken" name="jjwt">
+			<revision name="0.9.1" status="release" pubdate="20180706042143" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/jwtk/jjwt" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5996" time="0" location="C:\Users\DELL\.ivy2\cache\io.jsonwebtoken\jjwt\ivy-0.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="0.9.1" rev-constraint-default="0.9.1" rev-constraint-dynamic="0.9.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jjwt" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="114965" time="0" location="C:\Users\DELL\.ivy2\cache\io.jsonwebtoken\jjwt\srcs\jjwt-0.9.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="28.1-jre" status="release" pubdate="20190829022307" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7655" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.guava\guava\ivy-28.1-jre.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="28.1-jre" rev-constraint-default="28.1-jre" rev-constraint-dynamic="28.1-jre" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1643584" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.guava\guava\srcs\guava-28.1-jre-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.mojo" name="animal-sniffer-annotations">
+			<revision name="1.18" status="release" pubdate="20190513052744" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5185" time="0" location="C:\Users\DELL\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\ivy-1.18.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.18" rev-constraint-default="1.18" rev-constraint-dynamic="1.18" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="animal-sniffer-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4007" time="0" location="C:\Users\DELL\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\srcs\animal-sniffer-annotations-1.18-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.j2objc" name="j2objc-annotations">
+			<revision name="1.3" status="release" pubdate="20170119043955" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/j2objc/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="91">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3207" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.j2objc\j2objc-annotations\ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="j2objc-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10481" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.j2objc\j2objc-annotations\srcs\j2objc-annotations-1.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.3.2" status="release" pubdate="20181010040652" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4222" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.errorprone\error_prone_annotations\ivy-2.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.3.2" rev-constraint-default="2.3.2" rev-constraint-dynamic="2.3.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25814" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.errorprone\error_prone_annotations\srcs\error_prone_annotations-2.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-qual">
+			<revision name="2.8.1" status="release" pubdate="20190502020240" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://checkerframework.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="95">
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2696" time="0" location="C:\Users\DELL\.ivy2\cache\org.checkerframework\checker-qual\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="checker-qual" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="226502" time="0" location="C:\Users\DELL\.ivy2\cache\org.checkerframework\checker-qual\srcs\checker-qual-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.2" status="release" pubdate="20170331102548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3301" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jsr305" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18102" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.code.findbugs\jsr305\srcs\jsr305-3.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="failureaccess">
+			<revision name="1.0.1" status="release" pubdate="20181119232727" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6411" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.guava\failureaccess\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="failureaccess" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3493" time="0" location="C:\Users\DELL\.ivy2\cache\com.google.guava\failureaccess\srcs\failureaccess-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-json_2.12">
+			<revision name="2.8.1" status="release" pubdate="20191212045348" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="105">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5039" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-json_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.8.1/play-json_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-json_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="56932" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-json_2.12\srcs\play-json_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-json_2.12/2.8.1/play-json_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-functional_2.12">
+			<revision name="2.8.1" status="release" pubdate="20191212045347" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-json" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="86">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2878" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-functional_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.8.1/play-functional_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-functional_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12544" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-functional_2.12\srcs\play-functional_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-functional_2.12/2.8.1/play-functional_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jdk8">
+			<revision name="2.10.1" status="release" pubdate="20191110050045" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="30414" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jdk8" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="22021" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\srcs\jackson-datatype-jdk8-2.10.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-serialization-jackson_2.12">
+			<revision name="2.6.3" status="release" pubdate="20200128174627" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="5415" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-serialization-jackson_2.12\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.12/2.6.3/akka-serialization-jackson_2.12-2.6.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3"/>
+				<artifacts>
+					<artifact name="akka-serialization-jackson_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="19906" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-serialization-jackson_2.12\srcs\akka-serialization-jackson_2.12-2.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.12/2.6.3/akka-serialization-jackson_2.12-2.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.dataformat" name="jackson-dataformat-cbor">
+			<revision name="2.10.2" status="release" pubdate="20200105084858" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson-dataformats-binary" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="30711" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-dataformat-cbor" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48919" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.dataformat\jackson-dataformat-cbor\srcs\jackson-dataformat-cbor-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-parameter-names">
+			<revision name="2.10.2" status="release" pubdate="20200105082417" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="98">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="31047" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-parameter-names\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-module-parameter-names" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="7242" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-parameter-names\srcs\jackson-module-parameter-names-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12">
+			<revision name="2.10.2" status="release" pubdate="20200105140731" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4122" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-scala_2.12\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.2/jackson-module-scala_2.12-2.10.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53201" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-scala_2.12\srcs\jackson-module-scala_2.12-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.10.2/jackson-module-scala_2.12-2.10.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
+			<revision name="2.10.2" status="release" pubdate="20200105082152" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="30903" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-paranamer\ivy-2.10.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-module-paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9921" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-paranamer\srcs\jackson-module-paranamer-2.10.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor-typed_2.12">
+			<revision name="2.6.3" status="release" pubdate="20200128174438" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3554" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-actor-typed_2.12\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.3/akka-actor-typed_2.12-2.6.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3"/>
+				<artifacts>
+					<artifact name="akka-actor-typed_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="130163" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-actor-typed_2.12\srcs\akka-actor-typed_2.12-2.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.12/2.6.3/akka-actor-typed_2.12-2.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-slf4j_2.12">
+			<revision name="2.6.3" status="release" pubdate="20200128174324" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="94">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3647" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.12\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.3/akka-slf4j_2.12-2.6.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3"/>
+				<artifacts>
+					<artifact name="akka-slf4j_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2703" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.12\srcs\akka-slf4j_2.12-2.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.12/2.6.3/akka-slf4j_2.12-2.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.29" status="release" pubdate="20191031175558" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="55">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5489" time="0" location="C:\Users\DELL\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.29.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.7.29" rev-constraint-default="1.7.29" rev-constraint-dynamic="1.7.29" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="24768" time="0" location="C:\Users\DELL\.ivy2\cache\org.slf4j\jcl-over-slf4j\srcs\jcl-over-slf4j-1.7.29-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jul-to-slf4j">
+			<revision name="1.7.29" status="release" pubdate="20191031175616" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="101">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5463" time="0" location="C:\Users\DELL\.ivy2\cache\org.slf4j\jul-to-slf4j\ivy-1.7.29.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.7.29" rev-constraint-default="1.7.29" rev-constraint-dynamic="1.7.29" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jul-to-slf4j" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6172" time="0" location="C:\Users\DELL\.ivy2\cache\org.slf4j\jul-to-slf4j\srcs\jul-to-slf4j-1.7.29-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.29" status="release" pubdate="20191031175435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5400" time="0" location="C:\Users\DELL\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.29.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.7.29" rev-constraint-default="1.7.29" rev-constraint-dynamic="1.7.29" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="58690" time="0" location="C:\Users\DELL\.ivy2\cache\org.slf4j\slf4j-api\srcs\slf4j-api-1.7.29-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="twirl-api_2.12">
+			<revision name="1.5.0" status="release" pubdate="20191120001139" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/twirl" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="20">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2977" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\twirl-api_2.12\ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.5.0/twirl-api_2.12-1.5.0.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="twirl-api_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="9782" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\twirl-api_2.12\srcs\twirl-api_2.12-1.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.12/1.5.0/twirl-api_2.12-1.5.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.12">
+			<revision name="1.2.0" status="release" pubdate="20190405203728" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3303" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-xml_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="111652" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\srcs\scala-xml_2.12-1.2.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-streams_2.12">
+			<revision name="2.8.1" status="release" pubdate="20200201042105" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4351" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-streams_2.12\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.8.1/play-streams_2.12-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-streams_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15463" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-streams_2.12\srcs\play-streams_2.12-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-streams_2.12/2.8.1/play-streams_2.12-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-classic">
+			<revision name="1.2.3" status="release" pubdate="20170401005753" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="10512" time="0" location="C:\Users\DELL\.ivy2\cache\ch.qos.logback\logback-classic\ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-classic" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="230201" time="0" location="C:\Users\DELL\.ivy2\cache\ch.qos.logback\logback-classic\srcs\logback-classic-1.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.9.0" status="release" pubdate="20180503151720" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3069" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.9.0/scala-java8-compat_2.12-0.9.0.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64536" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang.modules\scala-java8-compat_2.12\srcs\scala-java8-compat_2.12-0.9.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.9.0/scala-java8-compat_2.12-0.9.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-stream_2.12">
+			<revision name="2.6.3" status="release" pubdate="20200128174450" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3842" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.3/akka-stream_2.12-2.6.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3"/>
+				<artifacts>
+					<artifact name="akka-stream_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="546855" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-stream_2.12\srcs\akka-stream_2.12-2.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.12/2.6.3/akka-stream_2.12-2.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf-v3_2.12">
+			<revision name="2.6.3" status="release" pubdate="20200128174055" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2976" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-protobuf-v3_2.12\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.3/akka-protobuf-v3_2.12-2.6.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3"/>
+				<artifacts>
+					<artifact name="akka-protobuf-v3_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="256" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-protobuf-v3_2.12\srcs\akka-protobuf-v3_2.12-2.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.12/2.6.3/akka-protobuf-v3_2.12-2.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.6.3" status="release" pubdate="20200128174123" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3402" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\ivy-2.6.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.3/akka-actor_2.12-2.6.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.6.3" rev-constraint-default="2.6.3" rev-constraint-dynamic="2.6.3" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka/2.6.3"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="502871" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-actor_2.12\srcs\akka-actor_2.12-2.6.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.6.3/akka-actor_2.12-2.6.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reactivestreams" name="reactive-streams">
+			<revision name="1.0.3" status="release" pubdate="20190823142010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.reactive-streams.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="97">
+				<license name="CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<metadata-artifact status="no" details="" size="2553" time="0" location="C:\Users\DELL\.ivy2\cache\org.reactivestreams\reactive-streams\ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6153" time="0" location="C:\Users\DELL\.ivy2\cache\org.reactivestreams\reactive-streams\srcs\reactive-streams-1.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="build-link">
+			<revision name="2.8.1" status="release" pubdate="20200201042017" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2899" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\build-link\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="build-link" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4112" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\build-link\srcs\build-link-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-exceptions">
+			<revision name="2.8.1" status="release" pubdate="20200201042035" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://playframework.com" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2727" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-exceptions\ivy-2.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.1/play-exceptions-2.8.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8.1" rev-constraint-default="2.8.1" rev-constraint-dynamic="2.8.1" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://www.playframework.com/documentation/2.8.1/api/scala/index.html"/>
+				<artifacts>
+					<artifact name="play-exceptions" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2301" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-exceptions\srcs\play-exceptions-2.8.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.1/play-exceptions-2.8.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826165928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4296" time="0" location="C:\Users\DELL\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="paranamer" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27125" time="0" location="C:\Users\DELL\.ivy2\cache\com.thoughtworks.paranamer\paranamer\srcs\paranamer-2.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.reflections" name="reflections">
+			<revision name="0.9.11" status="release" pubdate="20170324180731" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/ronmamo/reflections" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="WTFPL" url="http://www.wtfpl.net/"/>
+				<license name="The New BSD License" url="http://www.opensource.org/licenses/bsd-license.html"/>
+				<metadata-artifact status="no" details="" size="4179" time="0" location="C:\Users\DELL\.ivy2\cache\org.reflections\reflections\ivy-0.9.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="0.9.11" rev-constraint-default="0.9.11" rev-constraint-dynamic="0.9.11" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="reflections" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="55275" time="0" location="C:\Users\DELL\.ivy2\cache\org.reflections\reflections\srcs\reflections-0.9.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.javassist" name="javassist">
+			<revision name="3.21.0-GA" status="release" pubdate="20161003221507" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.javassist.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="MPL 1.1" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<license name="LGPL 2.1" url="http://www.gnu.org/licenses/lgpl-2.1.html"/>
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3235" time="0" location="C:\Users\DELL\.ivy2\cache\org.javassist\javassist\ivy-3.21.0-GA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="3.21.0-GA" rev-constraint-default="3.21.0-GA" rev-constraint-dynamic="3.21.0-GA" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javassist" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="524605" time="0" location="C:\Users\DELL\.ivy2\cache\org.javassist\javassist\srcs\javassist-3.21.0-GA-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.datatype" name="jackson-datatype-jsr310">
+			<revision name="2.10.1" status="release" pubdate="20191110050047" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="30709" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-datatype-jsr310" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="73260" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\srcs\jackson-datatype-jsr310-2.10.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.10.1" status="release" pubdate="20191110044246" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="92">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="24663" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1041734" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\srcs\jackson-databind-2.10.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.10.1" status="release" pubdate="20191110043923" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="23897" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="364539" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\srcs\jackson-core-2.10.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.10.1" status="release" pubdate="20191110042822" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="104">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8179" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.10.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.1" rev-constraint-default="2.10.1" rev-constraint-dynamic="2.10.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="72262" time="0" location="C:\Users\DELL\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\srcs\jackson-annotations-2.10.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.play" name="play-ws-standalone_2.12">
+			<revision name="2.1.2" status="release" pubdate="20191212053548" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/playframework/play-ws" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4162" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ws-standalone_2.12\ivy-2.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.1.2/play-ws-standalone_2.12-2.1.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.1.2" rev-constraint-default="2.1.2" rev-constraint-dynamic="2.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="play-ws-standalone_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="27675" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.play\play-ws-standalone_2.12\srcs\play-ws-standalone_2.12-2.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.12/2.1.2/play-ws-standalone_2.12-2.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="ch.qos.logback" name="logback-core">
+			<revision name="1.2.3" status="release" pubdate="20170401005715" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="102">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<license name="GNU Lesser General Public License" url="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"/>
+				<metadata-artifact status="no" details="" size="7994" time="0" location="C:\Users\DELL\.ivy2\cache\ch.qos.logback\logback-core\ivy-1.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.2.3" rev-constraint-default="1.2.3" rev-constraint-dynamic="1.2.3" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="logback-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="399141" time="0" location="C:\Users\DELL\.ivy2\cache\ch.qos.logback\logback-core\srcs\logback-core-1.2.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="ssl-config-core_2.12">
+			<revision name="0.4.1" status="release" pubdate="20191115041450" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/ssl-config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3758" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe\ssl-config-core_2.12\ivy-0.4.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/ssl-config-core_2.12-0.4.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="ssl-config-core_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53026" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe\ssl-config-core_2.12\srcs\ssl-config-core_2.12-0.4.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.4.1/ssl-config-core_2.12-0.4.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.10.5" status="release" pubdate="20191024194112" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.joda.org/joda-time/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="106">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6977" time="0" location="C:\Users\DELL\.ivy2\cache\joda-time\joda-time\ivy-2.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.10.5" rev-constraint-default="2.10.5" rev-constraint-dynamic="2.10.5" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="joda-time" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="821105" time="0" location="C:\Users\DELL\.ivy2\cache\joda-time\joda-time\srcs\joda-time-2.10.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.4.0" status="release" pubdate="20191012125341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3176" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe\config\ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="176871" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe\config\srcs\config-1.4.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.1.2" status="release" pubdate="20190406032736" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2962" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48135" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\srcs\scala-parser-combinators_2.12-1.1.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.2/scala-parser-combinators_2.12-1.1.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.8" status="release" pubdate="20181204154556" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="13">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2688" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="2.12.8" rev-constraint-default="2.12.8" rev-constraint-dynamic="2.12.8" callerrev="1.0-SNAPSHOT" extra-info.apiURL="http://www.scala-lang.org/api/2.12.8/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1020924" time="0" location="C:\Users\DELL\.ivy2\cache\org.scala-lang\scala-library\srcs\scala-library-2.12.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014050500" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="103">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2536" time="0" location="C:\Users\DELL\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="javax.inject" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10928" time="0" location="C:\Users\DELL\.ivy2\cache\javax.inject\javax.inject\srcs\javax.inject-1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jakarta.activation" name="jakarta.activation-api">
+			<revision name="1.2.1" status="release" pubdate="20181121034634" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="EDL 1.0" url="http://www.eclipse.org/org/documents/edl-v10.php"/>
+				<metadata-artifact status="no" details="" size="5436" time="0" location="C:\Users\DELL\.ivy2\cache\jakarta.activation\jakarta.activation-api\ivy-1.2.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="jakarta.activation-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43221" time="0" location="C:\Users\DELL\.ivy2\cache\jakarta.activation\jakarta.activation-api\srcs\jakarta.activation-api-1.2.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-parsing_2.12">
+			<revision name="10.1.11" status="release" pubdate="20191202145353" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.11/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3219" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-parsing_2.12\ivy-10.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11.pom"/>
+				<caller organisation="com.pdf" name="pdf-render$sources" conf="compile-internal, compile, provided, optional" rev="10.1.11" rev-constraint-default="10.1.11" rev-constraint-dynamic="10.1.11" callerrev="1.0-SNAPSHOT" extra-info.apiURL="https://doc.akka.io/api/akka-http/10.1.11/"/>
+				<artifacts>
+					<artifact name="akka-parsing_2.12" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="64987" time="0" location="C:\Users\DELL\.ivy2\cache\com.typesafe.akka\akka-parsing_2.12\srcs\akka-parsing_2.12-10.1.11-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.12/10.1.11/akka-parsing_2.12-10.1.11-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
